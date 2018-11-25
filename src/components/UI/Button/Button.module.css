@@ -1,0 +1,442 @@
+button > * {
+    vertical-align: middle;
+    align-items: center;
+}
+
+.Button {
+    background-color: #B1ADB9;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 14px 26px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 10px;
+}
+
+.Button:disabled {
+    background-color: #DEDCE1;
+}
+
+.Button.ButtonSecundary {
+    background-color: #EBEAED !important;
+    color: #8F8A9B !important;
+}
+
+.Button.ButtonSecundary:disabled {
+    background-color: #F5F4F6 !important;
+    color: #DEDCE1 !important;
+}
+
+.Button.ButtonTerciary {
+    background-color: #EBEAED !important;
+    color: #8F8A9B !important;
+    height: 35px !important;
+}
+
+.Button.ButtonTerciary:disabled {
+    background-color: #F5F4F6 !important;
+    color: #DEDCE1 !important;
+    height: 35px !important;
+}
+
+.Button.ButtonQuartiary {
+    background-color: transparent !important;
+    color: #8F8A9B !important;
+    height: 35px !important;
+}
+
+.Button.ButtonQuartiary:disabled {
+    background-color: transparent !important;
+    color: #DEDCE1 !important;
+    height: 35px !important;
+}
+
+/*Primary*/
+
+.Primary {
+    background-color: #365DF0 !important;
+    color: #FFFFFF !important;
+}
+
+.Primary:hover {
+    background-color: #2F55CC !important;
+    color: #FFFFFF !important;
+}
+
+.Primary:active {
+    background-color: #244AA8 !important;
+    color: #FFFFFF !important;
+}
+
+.Primary:disabled {
+    background-color: #B9C6FA !important;
+    color: #E1E7FD !important;
+}
+
+/*Primary Success*/
+
+.PrimarySuccess {
+    background-color: #12DB89 !important;
+    color: #FFFFFF !important;
+}
+
+.PrimarySuccess:hover {
+    background-color: #10B26C !important;
+    color: #FFFFFF !important;
+}
+
+.PrimarySuccess:active {
+    background-color: #0E995D !important;
+    color: #FFFFFF !important;
+}
+
+.PrimarySuccess:disabled {
+    background-color: #88EDC4 !important;
+    color: #E7FBF3 !important;
+}
+
+/*Primary Danger*/
+
+.PrimaryDanger {
+    background-color: #F95E5A !important;
+    color: #FFFFFF !important;
+}
+
+.PrimaryDanger:hover {
+    background-color: #CC4C4C !important;
+    color: #FFFFFF !important;
+}
+
+.PrimaryDanger:active {
+    background-color: #A53F3F !important;
+    color: #FFFFFF !important;
+}
+
+.PrimaryDanger:disabled {
+    background-color: #FCAEAC !important;
+    color: #FEEFEE !important;
+}
+
+/*Primary Danger*/
+
+.PrimaryWarning {
+    background-color: #FFBB43 !important;
+    color: #FFFFFF !important;
+}
+
+.PrimaryWarning:hover {
+    background-color: #FFBB43 !important;
+    color: #FFFFFF !important;
+}
+
+.PrimaryWarning:active {
+    background-color: #FFBB43 !important;
+    color: #FFFFFF !important;
+}
+
+.PrimaryWarning:disabled {
+    background-color: #FFDDA1 !important;
+    color: #FFF8EC !important;
+}
+
+/*Secondary*/
+
+.Secondary {
+    background-color: #E1E7FD !important;
+    color: #365DF0 !important;
+}
+
+.Secondary:hover {
+    background-color: #CAD6FC !important;
+    color: #365DF0 !important;
+}
+
+.Secondary:active {
+    background-color: #B9C6FA !important;
+    color: #365DF0 !important;
+}
+
+.Secondary:disabled {
+    background-color: #E1E7FD !important;
+    color: #B9C6FA !important;
+}
+
+/*Secondary Success*/
+
+.SecondarySuccess {
+    background-color: #E7FBF3 !important;
+    color: #12DB89 !important;
+}
+
+.SecondarySuccess:hover {
+    background-color: #CFF9E6 !important;
+    color: #12DB89 !important;
+}
+
+.SecondarySuccess:active {
+    background-color: #B7F7D8 !important;
+    color: #12DB89 !important;
+}
+
+.SecondarySuccess:disabled {
+    background-color: #E7FBF3 !important;
+    color: #88EDC4 !important;
+}
+
+/*Secondary Danger*/
+
+.SecondaryDanger {
+    background-color: #FEEFEE !important;
+    color: #F95E5A !important;
+}
+
+.SecondaryDanger:hover {
+    background-color: #FCD7D6 !important;
+    color: #F95E5A !important;
+}
+
+.SecondaryDanger:active {
+    background-color: #FCC6C5 !important;
+    color: #F95E5A !important;
+}
+
+.SecondaryDanger:disabled {
+    background-color: #FEEFEE !important;
+    color: #FCAEAC !important;
+}
+
+/*Secondary Warning*/
+
+.SecondaryWarning {
+    background-color: #FFF8EC !important;
+    color: #FFBB43 !important;
+}
+
+.SecondaryWarning:hover {
+    background-color: #FFF8EC !important;
+    color: #FFBB43 !important;
+}
+
+.SecondaryWarning:active {
+    background-color: #FFF8EC !important;
+    color: #FFBB43 !important;
+}
+
+.SecondaryWarning:disabled {
+    background-color: #FFF8EC !important;
+    color: #FFDDA1 !important;
+}
+
+/*Terciary*/
+
+.Terciary {
+    height: 35px !important;
+    background-color: #E1E7FD !important;
+    color: #365DF0 !important;
+}
+
+.Terciary:hover {
+    height: 35px !important;
+    background-color: #CAD6FC !important;
+    color: #365DF0 !important;
+}
+
+.Terciary:active {
+    height: 35px !important;
+    background-color: #B9C6FA !important;
+    color: #365DF0 !important;
+}
+
+.Terciary:disabled {
+    height: 35px !important;
+    background-color: #E1E7FD !important;
+    color: #B9C6FA !important;
+}
+
+/*Terciary Success*/
+
+.TerciarySuccess {
+    height: 35px !important;
+    background-color: #E7FBF3 !important;
+    color: #12DB89 !important;
+}
+
+.TerciarySuccess:hover {
+    height: 35px !important;
+    background-color: #CFF9E6 !important;
+    color: #12DB89 !important;
+}
+
+.TerciarySuccess:active {
+    height: 35px !important;
+    background-color: #B7F7D8 !important;
+    color: #12DB89 !important;
+}
+
+.TerciarySuccess:disabled {
+    height: 35px !important;
+    background-color: #E7FBF3 !important;
+    color: #88EDC4 !important;
+}
+
+/*Terciary Danger*/
+
+.TerciaryDanger {
+    height: 35px !important;
+    background-color: #FEEFEE !important;
+    color: #F95E5A !important;
+}
+
+.TerciaryDanger:hover {
+    height: 35px !important;
+    background-color: #FCD7D6 !important;
+    color: #F95E5A !important;
+}
+
+.TerciaryDanger:active {
+    height: 35px !important;
+    background-color: #FCC6C5 !important;
+    color: #F95E5A !important;
+}
+
+.TerciaryDanger:disabled {
+    height: 35px !important;
+    background-color: #FEEFEE !important;
+    color: #FCAEAC !important;
+}
+
+/*Terciary Warning*/
+
+.TerciaryWarning {
+    height: 35px !important;
+    background-color: #FFF8EC !important;
+    color: #FFBB43 !important;
+}
+
+.TerciaryWarning:hover {
+    height: 35px !important;
+    background-color: #FFF8EC !important;
+    color: #FFBB43 !important;
+}
+
+.TerciaryWarning:active {
+    height: 35px !important;
+    background-color: #FFF8EC !important;
+    color: #FFBB43 !important;
+}
+
+.TerciaryWarning:disabled {
+    height: 35px !important;
+    background-color: #FFF8EC !important;
+    color: #FFDDA1 !important;
+}
+
+/*Quartiary*/
+
+.Quartiary {
+    height: 35px !important;
+    background-color: transparent !important;
+    color: #365DF0 !important;
+}
+
+.Quartiary:hover {
+    height: 35px !important;
+    background-color: transparent !important;
+    color: #365DF0 !important;
+}
+
+.Quartiary:active {
+    height: 35px !important;
+    background-color: transparent !important;
+    color: #365DF0 !important;
+}
+
+.Quartiary:disabled {
+    height: 35px !important;
+    background-color: transparent !important;
+    color: #B9C6FA !important;
+}
+
+/*Quartiary Success*/
+
+.QuartiarySuccess {
+    height: 35px !important;
+    background-color: transparent !important;
+    color: #12DB89 !important;
+}
+
+.QuartiarySuccess:hover {
+    height: 35px !important;
+    background-color: transparent !important;
+    color: #12DB89 !important;
+}
+
+.QuartiarySuccess:active {
+    height: 35px !important;
+    background-color: transparent !important;
+    color: #12DB89 !important;
+}
+
+.QuartiarySuccess:disabled {
+    height: 35px !important;
+    background-color: transparent !important;
+    color: #88EDC4 !important;
+}
+
+/*Quartiary Danger*/
+
+.QuartiaryDanger {
+    height: 35px !important;
+    background-color: transparent !important;
+    color: #F95E5A !important;
+}
+
+.QuartiaryDanger:hover {
+    height: 35px !important;
+    background-color: transparent !important;
+    color: #F95E5A !important;
+}
+
+.QuartiaryDanger:active {
+    height: 35px !important;
+    background-color: transparent !important;
+    color: #F95E5A !important;
+}
+
+.QuartiaryDanger:disabled {
+    height: 35px !important;
+    background-color: transparent !important;
+    color: #FCAEAC !important;
+}
+
+/*Quartiary Warning*/
+
+.QuartiaryWarning {
+    height: 35px !important;
+    background-color: transparent !important;
+    color: #FFBB43 !important;
+}
+
+.QuartiaryWarning:hover {
+    height: 35px !important;
+    background-color: transparent !important;
+    color: #FFBB43 !important;
+}
+
+.QuartiaryWarning:active {
+    height: 35px !important;
+    background-color: transparent !important;
+    color: #FFBB43 !important;
+}
+
+.QuartiaryWarning:disabled {
+    height: 35px !important;
+    background-color: transparent !important;
+    color: #FFDDA1 !important;
+}

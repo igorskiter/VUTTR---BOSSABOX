@@ -1,0 +1,61 @@
+.Icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    overflow: hidden;
+}
+
+.IconLeft {
+    margin-right: 13px;
+}
+
+.IconRight {
+    margin-left: 13px;
+}
+
+.Icon>img{
+    height: 100%;
+    width: 100%;
+}
+
+.IconMostSmallest {
+    height: 10px !important;
+    width: 10px !important;
+}
+
+.IconSmallest {
+    height: 12px !important;
+    width: 12px !important;
+}
+
+.IconSmaller {
+    height: 15px !important;
+    width: 15px !important;
+}
+
+.IconSmall {
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.IconBig {
+    height: 35px !important;
+    width: 35px !important;
+}
+
+.IconBigger {
+    height: 45px !important;
+    width: 45px !important;
+}
+
+.IconBiggest {
+    height: 60px !important;
+    width: 60px !important;
+}
+
+.IconMostBiggest {
+    height: 75px !important;
+    width: 75px !important;
+}

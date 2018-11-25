@@ -1,0 +1,137 @@
+{
+  "config": {
+    "title": "Vuttr Bossabox",
+    "description": "My awesome app using docz",
+    "themeConfig": {},
+    "menu": [],
+    "ordering": "descending",
+    "version": "0.1.0",
+    "repository": null,
+    "native": false,
+    "codeSandbox": true,
+    "plugins": [
+      {}
+    ]
+  },
+  "entries": {
+    "src/components/UI/Button/Button.mdx": {
+      "name": "Button",
+      "route": "/",
+      "id": "3657bfd44204bd1c2ddef2265fd034bf",
+      "filepath": "src/components/UI/Button/Button.mdx",
+      "link": null,
+      "slug": "src-components-ui-button-button",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "button",
+          "value": "Button"
+        },
+        {
+          "depth": 2,
+          "slug": "properties",
+          "value": "Properties"
+        },
+        {
+          "depth": 2,
+          "slug": "learn",
+          "value": "Learn"
+        },
+        {
+          "depth": 2,
+          "slug": "primary",
+          "value": "Primary"
+        },
+        {
+          "depth": 2,
+          "slug": "secondary",
+          "value": "Secondary"
+        },
+        {
+          "depth": 2,
+          "slug": "terciary",
+          "value": "Terciary"
+        },
+        {
+          "depth": 2,
+          "slug": "quartiary",
+          "value": "Quartiary"
+        },
+        {
+          "depth": 2,
+          "slug": "primary-icon-left",
+          "value": "Primary Icon Left"
+        },
+        {
+          "depth": 2,
+          "slug": "secondary-icon-left",
+          "value": "Secondary Icon Left"
+        },
+        {
+          "depth": 2,
+          "slug": "terciary-icon-left",
+          "value": "Terciary Icon Left"
+        },
+        {
+          "depth": 2,
+          "slug": "quartiary-icon-left",
+          "value": "Quartiary Icon Left"
+        },
+        {
+          "depth": 2,
+          "slug": "primary-icon-right",
+          "value": "Primary Icon Right"
+        },
+        {
+          "depth": 2,
+          "slug": "secondary-icon-right",
+          "value": "Secondary Icon Right"
+        },
+        {
+          "depth": 2,
+          "slug": "terciary-icon-right",
+          "value": "Terciary Icon Right"
+        },
+        {
+          "depth": 2,
+          "slug": "quartiary-icon-right",
+          "value": "Quartiary Icon Right"
+        }
+      ]
+    },
+    "src/components/UI/Icon/Icon.mdx": {
+      "name": "Icon",
+      "id": "9ea13861eb11a62da15f728515f653ab",
+      "filepath": "src/components/UI/Icon/Icon.mdx",
+      "link": null,
+      "slug": "src-components-ui-icon-icon",
+      "route": "/src-components-ui-icon-icon",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "icon",
+          "value": "Icon"
+        },
+        {
+          "depth": 2,
+          "slug": "properties",
+          "value": "Properties"
+        },
+        {
+          "depth": 2,
+          "slug": "basic",
+          "value": "Basic"
+        },
+        {
+          "depth": 2,
+          "slug": "sizes",
+          "value": "Sizes"
+        }
+      ]
+    }
+  }
+}
